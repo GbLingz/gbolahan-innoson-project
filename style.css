@@ -1,48 +1,64 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 
 .navbar {
-    background: rgba(255, 255, 255, 1);
+  background: rgba(255, 255, 255, 1);
 }
-.btn{
-    background-color: rgba(56, 214, 158, 1);  
-   color: rgba(247, 247, 247, 1);
-   font-family: 'Noto Sans', sans-serif;
-   font-weight:600 ;
+.btn {
+  background-color: rgba(56, 214, 158, 1);
+  color: rgba(247, 247, 247, 1);
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 600;
 }
 .nav-ul {
-    color: rgba(15, 15, 15, 1);
-    font-family: 'Noto Sans', sans-serif;
-    font-weight:600 ;
+  color: rgba(15, 15, 15, 1);
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 600;
 }
-main{
-    background-image: url(./assets/hero-img.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 28rem;
-    color: rgba(247, 247, 247, 1);
+main {
+  background-image: url(./assets/hero-img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 28rem;
+  color: rgba(247, 247, 247, 1);
 }
-main h2{
-    font-family: 'Noto Sans', sans-serif;
-    font-weight:500 ;
+main h2 {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 500;
 }
-main p{
-    font-family: 'Noto Sans',sans-serif;
-    font-weight:500 ;
+main p {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 500;
 }
-@media (max-width:475px) {
-    main p{
-        width: 100%;
-    }
-    main h2 {
-        width: 100%;
-    }
+/* section 1 */
+.section-1 {
+  background: rgba(54, 95, 163, 1);
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 600;
+  height: 6rem;
+  color: rgba(255, 255, 255, 1);
 }
-@media(min-width:768px){
-    main p{
-        width: 38%;
-    }
-    main h2 {
-        width: 30%;
-    }
+.section-2 {
+  background-color: rgb(254, 254,  254);
+}
+
+@media (max-width: 475px) {
+  main p {
+    width: 100%;
+  }
+  main h2 {
+    width: 100%;
+  }
+}
+@media (min-width: 768px) {
+  main p {
+    width: 38%;
+  }
+  main h2 {
+    width: 30%;
+  }
+  .section-1 h3 {
+    width: 45%;
+    margin: auto;
+  }
 }
