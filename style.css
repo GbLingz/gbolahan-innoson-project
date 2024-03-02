@@ -42,12 +42,49 @@ main p {
   background-color: rgb(254, 254,  254);
 }
 
+.card-2 {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.section-3 {
+  background-image: url(./assets/joining\ of\ hands.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 15rem;
+  color: rgba(247, 247, 247, 1);
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+.section-3 h2 {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 500;
+  font-size: 100%;
+}
+
+.footer {
+  background-position: relative;
+  z-index: 1;
+  background-color: rgba(15, 15, 15, 1);
+  color: rgba(255, 255, 255, 1);
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+}
+
 @media (max-width: 475px) {
   main p {
     width: 100%;
   }
   main h2 {
     width: 100%;
+  }
+  .cards-2 {
+    width: 100%;
+  }
+
+  .section-3 {
+    width: 100%;
+    margin: auto;
   }
 }
 @media (min-width: 768px) {
@@ -59,6 +96,10 @@ main p {
   }
   .section-1 h3 {
     width: 45%;
+    margin: auto;
+  }
+  .section-3 h2 {
+    width: 30%;
     margin: auto;
   }
 }
